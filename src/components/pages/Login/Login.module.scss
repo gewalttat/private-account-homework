@@ -1,0 +1,46 @@
+.login_page_contaiter {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__dialog {
+        color: #000000;
+        animation: hello-message 3s, hello-message 3s 3s reverse forwards;
+        position: absolute;
+        z-index: 0;
+    }
+
+    &__form {
+        margin-left: 5%;
+        opacity: 0;
+        animation: hello-message 3s 5s forwards;
+        position: absolute;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & input {
+            border: 1px solid rgb(0, 0, 0);
+            outline:none;
+            border-radius: 40px;
+            padding: .5em 1em; width: 100%;
+        }
+
+        &__login_button {
+            width: 80%;
+            // margin-left: 10%;
+        }
+    }
+}
+
+@keyframes hello-message {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

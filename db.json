@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "John",
+      "major": "Front-end",
+      "location": "London",
+      "gender": "male"
+    },
+    {
+      "id": "3",
+      "name": "Valeriia",
+      "major": "QA",
+      "location": "Ufa",
+      "gender": "female"
+    },
+    {
+      "id": "4",
+      "name": "Kira",
+      "gender": "female",
+      "location": "London",
+      "major": "Devops"
+    },
+    {
+      "id": "3_Y_xaH",
+      "name": "Nastya",
+      "major": "HR",
+      "gender": "female",
+      "location": "Ufa"
+    },
+    {
+      "id": "4600d982-7f70-4d9e-909e-111e99d7e5cd",
+      "name": "Derek",
+      "gender": "male",
+      "location": "New-York",
+      "major": "Front-end"
+    },
+    {
+      "id": "124c9d09-073f-4b2a-ab90-e9e427ba9783",
+      "name": "Tim",
+      "major": "Back-end",
+      "gender": "male",
+      "location": "Tbilisi"
+    }
+  ]
+}
